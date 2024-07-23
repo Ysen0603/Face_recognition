@@ -31,7 +31,6 @@ def predict(image_path, confidence_threshold=0.8):
     
     if img is None:
         return None
-    
     if len(faces) == 0:
         print("No faces detected")
         return None
